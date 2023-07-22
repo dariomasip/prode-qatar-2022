@@ -44,7 +44,7 @@ Description: This screenshot shows the user interface of the Football Prode appl
 
 ![Predictions and matches view](https://i.ibb.co/yWsJ28f/Torneo.png)
 
-Description: This iamge showcases the tournaments section of the Football Prode application. Users can create and join private and public tournaments, view their positions on the leaderboard based on their accumulated accuracy scores, and access detailed statistics for each player within the tournament, such as the number of perfect predictions, accurate predictions, correct goal differentials, and their highest streak of correct predictions.
+Description: This image showcases the tournaments section of the Football Prode application. Users can create and join private and public tournaments, view their positions on the leaderboard based on their accumulated accuracy scores, and access detailed statistics for each player within the tournament, such as the number of perfect predictions, accurate predictions, correct goal differentials, and their highest streak of correct predictions.
 
 ## Contact
 
