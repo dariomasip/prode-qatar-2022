@@ -1,0 +1,344 @@
+
+
+.contenedor {
+    background: transparent
+    no-repeat padding-box;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.contenedor__login {
+    width: 21.77vw;
+    height: 41.77vw;
+    background: #EEEEE4 0% 0% no-repeat padding-box;
+    border-radius: 2.760vw;
+    padding: 0 5.833vw;
+}
+
+.titulo__login {
+    text-align: left;
+    font: normal normal bold 2.86vw/3.802vw Segoe UI;
+    letter-spacing: 0px;
+    color: #85162C;
+}
+
+.input__form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font: normal normal 600 0.9375vw/1.25vw Segoe UI;
+    letter-spacing: 0px;
+    color: #823F4C;
+    margin-bottom: 2.083vw;
+}
+
+.input__form input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.15625vw solid #888888;
+    border-radius: 6px;
+
+    font: normal normal 400 18px/24px Segoe UI;
+    
+    height: 1.458vw;
+    font-size: 20px;
+    outline: none;
+    padding: 0.5208vw;
+    margin-top: 5px;
+}
+
+.input__form input:focus {
+    border-color:  #88162D;
+}
+
+.submit__form__disable {
+    background: #ff004c80 0% 0% no-repeat padding-box;
+    border-radius:  0.3125vw;
+
+    width: 100%;
+    height: 2.44vw;
+
+    font: normal normal bold 1.145vw/1.51vw Roboto;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    cursor: no-drop;
+}
+
+.submit__form {
+    background: #FF004C 0% 0% no-repeat padding-box;
+    border-radius:  0.3125vw;
+
+    width: 100%;
+    height: 2.44vw;
+
+    font: normal normal bold 1.145vw/1.51vw Roboto;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.submit__form:hover {
+    background: #eb0046 0% 0% no-repeat padding-box;
+}
+
+.warnings__form {
+    font: normal normal 600 0.9375vw/1.25vw Segoe UI;
+    letter-spacing: 0px;
+    color: #823F4C;
+    text-align: center;
+}
+
+.warnings__form p:first-child {
+    margin: 0;
+    margin-top: 1.71875vw;
+}
+
+.warnings__form p a {
+    font: normal normal 600  0.9375vw/1.25vw Segoe UI;
+    letter-spacing: 0px;
+    color: #FF004C;
+    text-decoration: none;
+}
+
+.contenedor__login__tranks {
+    width: 21.77vw;
+    height: 41.77vw;
+    background: #EEEEE4 0% 0% no-repeat padding-box;
+    border-radius: 2.760vw;
+    padding: 0 5.833vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.contenedor__login__tranks a {
+    font: normal normal 600  0.9375vw/1.25vw Segoe UI;
+    letter-spacing: 0px;
+    color: #FF004C;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+@media (max-width: 1024px) {
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor__login,
+    .contenedor__login__tranks {
+        width: 40.77vw;
+        height: 50.77vw;
+    }
+
+    .titulo__login {
+        font: normal normal bold 5.86vw/4.86vw Segoe UI;
+    }
+
+    .input__form {
+        font: normal normal 600 1.6375vw/1.6375vw Segoe UI;
+        margin-bottom: 2.083vw;
+    }
+
+    .input__form input {
+        
+        height: 2.458vw;
+        font-size: 20px;
+        outline: none;
+        padding: 0.5208vw;
+        margin-top: 5px;
+    }
+
+    .submit__form {
+        background: #FF004C 0% 0% no-repeat padding-box;
+        border-radius:  0.3125vw;
+    
+        width: 100%;
+        height: 4.44vw;
+    
+        font: normal normal bold 1.645vw/1.645vw Roboto;
+        
+    }
+
+    .submit__form__disable {
+        width: 100%;
+        height: 4.44vw;
+    
+        font: normal normal bold 1.645vw/1.645vw Roboto;
+    }
+
+    .warnings__form {
+        font: normal normal 600 1.7375vw/1.7375vw Segoe UI;
+        letter-spacing: 0px;
+        color: #823F4C;
+        text-align: center;
+    }
+    
+    .warnings__form p:first-child {
+        margin: 0;
+        margin-top: 1.71875vw;
+    }
+    
+    .warnings__form p a {
+        font: normal normal 600  1.7375vw/1.7375vw Segoe UI;
+        letter-spacing: 0px;
+        color: #FF004C;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor__login,
+    .contenedor__login__tranks {
+        width: 54.77vw;
+        height: 70.77vw;
+    }
+
+    .titulo__login {
+        font: normal normal bold 6.86vw/6.86vw Segoe UI;
+    }
+
+    .input__form {
+        font: normal normal 600 2.2375vw/2.2375vw Segoe UI;
+        margin-bottom: 2.083vw;
+    }
+    
+    .input__form input {
+        
+        height: 5.458vw;
+        font-size: 20px;
+        outline: none;
+        padding: 0.5208vw;
+        margin-top: 5px;
+
+    }
+
+    
+    .submit__form__disable {
+        border-radius:  0.3125vw;
+        width: 100%;
+        height: 5.87vw;
+    
+        font: normal normal bold 2.345vw/2.345vw Roboto;
+    }
+
+    .submit__form {
+        background: #FF004C 0% 0% no-repeat padding-box;
+        border-radius:  0.3125vw;
+    
+        width: 100%;
+        height: 5.87vw;
+    
+        font: normal normal bold 2.345vw/2.345vw Roboto;
+        
+    }
+
+    .warnings__form {
+        font: normal normal 600 2.3375vw/2.3375vw Segoe UI;
+        letter-spacing: 0px;
+        color: #823F4C;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .warnings__form p:first-child {
+        margin: 0;
+        margin-top: 1.71875vw;
+    }
+    
+    .warnings__form p a {
+        font: normal normal 600  2.3375vw/2.3375vw Segoe UI;
+        letter-spacing: 0px;
+        color: #FF004C;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor__login,
+    .contenedor__login__tranks {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .titulo__login {
+        font: normal normal bold 12.36vw/12.36vw Segoe UI;
+        margin-bottom: 15.167vw;
+    }
+
+    .input__form {
+        font: normal normal 600 4.1375vw/4.1375vw Segoe UI;
+        margin-bottom: 5.083vw;
+    }
+
+    .input__form input {
+        
+        height: 10.858vw;
+        font-size: 20px;
+        outline: none;
+        padding: 0.5208vw;
+        margin-top: 5px;
+    }
+
+    .submit__form {
+        background: #FF004C 0% 0% no-repeat padding-box;
+        border-radius:  0.3125vw;
+    
+        width: 100%;
+        height: 10.87vw;
+        margin-top: 1.3020833333333333vw;
+        font: normal normal bold 4.345vw/4.345vw Roboto;
+        
+    }
+
+    .submit__form__disable {
+        border-radius:  0.3125vw;
+        width: 100%;
+        margin-top: 1.3020833333333333vw;
+        height: 10.87vw;
+        font: normal normal bold 4.345vw/4.345vw Roboto;
+    }
+
+
+    .warnings__form {
+        font: normal normal 600 4.1375vw/4.1375vw Segoe UI;
+        letter-spacing: 0px;
+        color: #823F4C;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .warnings__form p:first-child {
+        margin: 0;
+        margin-top: 15.71875vw;
+    }
+    
+    .warnings__form p a {
+        font: normal normal 600  4.1375vw/4.1375vw Segoe UI;
+        letter-spacing: 0px;
+        color: #FF004C;
+        text-decoration: none;
+    }
+}

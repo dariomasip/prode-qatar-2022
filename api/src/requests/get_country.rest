@@ -1,0 +1,1 @@
+GET https://api.ipgeolocation.io/ipgeo?apiKey=8615eec6113f4be299f48dcdd899fc2b&getip&fields=country_name HTTP/1.1

@@ -1,0 +1,9 @@
+POST http://localhost:3001/pronosticos HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzlmMDljNTlmYmJlZTMyMzZjODdjNSIsImVtYWlsIjoibWFzaXBkYXJpb0BnbWFpbC5jb20iLCJpYXQiOjE2NTc0MDQ4NTZ9.3X1X3y0SBtxM-z3RzHSNfdg2gFKrfFpFw4oLyIpngTM
+
+{
+    "idMatch": 391882,
+    "homeTeam": 2,
+    "awayTeam":1
+}

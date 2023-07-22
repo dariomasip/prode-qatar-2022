@@ -1,0 +1,179 @@
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+    z-index: 2;
+    margin-bottom: 15px;
+}
+
+.contenedor .button__crear {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.contenedor .button__crear button,
+    .contenedor .button__crear a  {
+    background: #FF004C 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    border: none;
+    height: 100%;
+
+    padding: 8px 10px;
+    font: normal normal bold 21px/28px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: revert;
+
+}
+
+.contenedor .button__crear a {
+    margin: 0;
+}
+
+
+
+.contenedor .button__crear a span {
+    margin-left: 5px;
+}
+
+
+.encabezado__torneos {
+    color: #fff;
+}
+
+.label__input {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #888888;
+    border-radius: 6px;
+
+    font: normal normal 400 18px/24px Segoe UI;
+
+    width: 300px;
+    font-size: 20px;
+    outline: none;
+    padding: 0.5208vw;
+    margin-top: 5px;
+}
+
+.input:focus {
+    border-color:  #88162D;
+}
+
+
+
+.encabezado__torneos h1 {
+    text-transform: uppercase;
+}
+
+.container__torneos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+
+.container__1 {
+    overflow-y: scroll;
+}
+
+@media (max-width:1024px) {
+    .contenedor {
+        padding: 0 40px;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background-color:#e7e7de;
+    }
+
+    .container__torneos {
+        gap: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .encabezado__torneos {
+        color: #88162D;
+    }
+
+    .contenedor .button__crear button,
+    .contenedor .button__crear a {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 100%
+    }
+    
+    
+
+    .label__input {
+        color: #88162D;
+    }
+ 
+}
+
+@media (max-width:868px) {
+    .container__torneos {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+    }
+
+    .contenedor h1 {
+        margin-bottom: -15px;
+        margin-top: 0;
+    } 
+
+    .contenedor {
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    .contenedor .button__crear {
+        margin-top: 15px;
+    }
+    
+}
+
+@media (max-width:570px) {
+    .contenedor .button__crear {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 15px;
+        
+    }
+
+    .contenedor .button__crear label,
+    .contenedor .button__crear label input {
+        width: 100%;
+        margin-bottom: 8px;
+
+    }
+
+    .contenedor .button__crear button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .contenedor .button__crear button,
+    .contenedor .button__crear a {
+        width: 100%;
+        
+    }
+}
+

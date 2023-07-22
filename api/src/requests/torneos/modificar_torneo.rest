@@ -1,0 +1,9 @@
+PUT http://localhost:3001/torneos/modificar HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzlmMDljNTlmYmJlZTMyMzZjODdjNSIsImVtYWlsIjoibWFzaXBkYXJpb0BnbWFpbC5jb20iLCJpYXQiOjE2NTc3NDg0MDB9.sCojs4DdPL16jnd8vu62L9RPCPHjq3qmz8tTyB3uWag
+
+{
+    "code": "78AEA1400",
+    "title":"Los del bajo fondo",
+    "description":"El barrio mas popular páaaaa."
+}

@@ -1,0 +1,59 @@
+.container_notification {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_notification:hover {
+    background-color: #cfcfc5;
+}
+
+.text__destacado {
+    color:#ff004c;
+    font-weight: 600;
+}
+
+.button_close span {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.button__confirm{
+    background: #FF004C 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    border: none;
+
+
+    padding: 6px 8px   ;
+    font: normal normal bold 14px/14px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    margin-top: 5px;
+}
+
+.button__decline{
+    background: transparent;
+    border-radius: 6px;
+    border: none;
+
+
+    padding: 6px 8px   ;
+    font: normal normal bold 14px/14px Roboto;
+    letter-spacing: 0px;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    margin-top: 5px;
+}
+
+.time_ago {
+    font-size: 12px;
+    color: #666666;
+}
+
+

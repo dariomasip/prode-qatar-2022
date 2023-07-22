@@ -1,0 +1,17 @@
+.container__notifications {
+    max-height: 410px;
+    
+    border-radius: 10px;
+    background-color: #eeeee4;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container__notifications p {
+    color: rgb(107, 107, 107);
+}

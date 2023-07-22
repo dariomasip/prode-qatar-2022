@@ -1,0 +1,82 @@
+.container {
+    width: 850px;
+    height: 600px;
+    background-color: #EEEEE4;
+    border-radius: 100px;
+    flex-shrink: 0;
+    margin-right: 50px;
+    padding: 0 50px;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    margin: 30px;
+}
+
+
+
+.title__group {
+    font-size: 47px;
+    font: normal normal bold 47px/63px Segoe UI;
+    color: #85162C;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header__table {
+    color: #823F4C;
+    font: normal normal bold 18px/24px Segoe UI;
+    text-align: left;
+}
+
+.flag {
+    width: 40px;
+    border-radius: 10px;
+    border: 2px solid #D5CFB2;
+    user-select: none;
+    margin-right: 10px;
+}
+
+.number__top {
+    text-align: left;
+    font: normal normal 900 31px/42px Segoe UI;
+    letter-spacing: 0px;
+    color: #5E5E5E;
+    opacity: 1;
+}
+
+.tds {
+    text-align: left;
+    font: normal normal bold 24px Segoe UI;
+    letter-spacing: 0px;
+    color: #85162C;
+    
+}
+
+.tds_numbers {
+    text-align: right;
+}
+.th__numbers {
+    text-align: right;
+}
+
+.indicadores {
+    display: flex;
+    justify-content: right;
+
+}
+
+.indicador {
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    border-radius: 50%;
+    border: 2px solid #c5c5c5;
+    background-color: #f5f5f5;
+}
+

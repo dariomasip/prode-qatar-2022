@@ -1,0 +1,269 @@
+.status__match {
+    background: #B2B80F 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    padding: 10px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status__match__finished {
+    background: #707070 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    height: 33px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status__match__inPlay {
+    border-radius: 4px;
+    height: 33px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    animation: in_live 2s ease-out infinite;
+}
+
+.status__match__inPause {
+    border-radius: 4px;
+    height: 33px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    animation: in_pause 2s ease-out infinite;
+}
+
+.button__afirmative {
+    background: #FF004C 0% 0% no-repeat padding-box;
+    border-radius:  5px;
+      font: normal normal bold 14px/14px Roboto;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.button__decline{
+    background: transparent;
+    border: none;
+    font: normal normal bold 14px/14px Roboto;
+    letter-spacing: 0px;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@keyframes in_live {
+    0% {
+        background: #12ad1c 0% 0% no-repeat padding-box;
+
+    }
+    50% {
+        background: #0E8D17 0% 0% no-repeat padding-box;
+    }
+    100% {
+        background: #12ad1c 0% 0% no-repeat padding-box;
+    }
+}
+
+@keyframes in_pause {
+    0% {
+        background: #df7819 0% 0% no-repeat padding-box;
+
+    }
+    50% {
+        background: #ad5d12 0% 0% no-repeat padding-box;
+    }
+    100% {
+        background: #df7819 0% 0% no-repeat padding-box;
+    }
+}
+
+.text__start {
+    text-align: center;
+    font: normal normal bold 11px/15px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.time__match {
+    text-align: center;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #85162C;
+    cursor: pointer;
+}
+
+
+.time__match__inPlay {
+    text-align: center;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #000;
+}
+
+.team__home,
+.team__away {
+    text-align: left;
+    font: normal normal bold 28px/37px Segoe UI;
+    letter-spacing: 0px;
+    color: #85162C;
+    text-align: left;
+    font: normal normal bold 28px/37px Segoe UI;
+    letter-spacing: 0px;
+    color: #85162C;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.flag {
+    width: 50px;
+    border-radius: 10px;
+    border: 2px solid #D5CFB2;
+    user-select: none;
+    margin: 0 10px;
+}
+
+
+.input__pronostico {
+    width: 38px;
+    height: 38px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #88162D;
+    font: normal normal bold 28px/37px Segoe UI;
+    letter-spacing: 0px;
+    color: #85162C;
+    text-align: center;
+}
+
+.result {
+    width: 38px;
+    height: 38px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #88162D;
+
+    text-align: center;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #85162C;
+}
+
+
+
+.column__date_status {
+    width: 195px;
+}
+
+.status__time__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+
+
+.results__column {
+    width: 150px;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.results__users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: left;
+    font: normal normal bold 10px/14px Segoe UI;
+    color: #823F4C;
+    text-transform: uppercase;
+
+}
+
+.results__users span {
+    padding-top: 10px;
+}
+
+.result_user {
+    width: 36px;
+    height: 36px;
+    transform: rotate(45deg);
+    background: #FF004C 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 23px/31px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.number__result__user {
+    position: absolute;
+    text-align: center;
+    font: normal normal bold 23px/31px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    bottom: 5%;
+    left: 16%;
+
+    transform: rotate(312deg);
+}
+
+
+
+.results__matches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.column__your__pronostico {
+    width: 150px;
+
+}
+
+.your__pronostico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+@media (max-width:1024px) {
+    .team__home,
+    .team__away {
+        font: normal normal bold 18px/18px Segoe UI;
+        min-width: 250px;
+        
+    }
+
+    .time__match {
+        font: normal normal bold 18px/18px Segoe UI;
+        margin-top: 5px;
+    } 
+
+    .results__column {
+        padding: 0 20px;
+    }
+
+    .results__matches {
+        margin-right: 15px;
+    }
+}

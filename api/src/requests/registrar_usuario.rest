@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/auth/registro HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"matiascalivasv",
+    "email":"matias@gmail.com",
+    "password": "mati123"
+}

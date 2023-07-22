@@ -1,0 +1,9 @@
+.container_groups {
+    display: flex;
+    grid-area: main;
+    overflow: auto;
+    height: calc(100vh - 100px);
+    padding: 5px;
+    align-items: center;
+
+}

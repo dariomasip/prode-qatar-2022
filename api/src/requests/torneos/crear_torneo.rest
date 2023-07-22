@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/torneos/crear HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzlmMDljNTlmYmJlZTMyMzZjODdjNSIsImVtYWlsIjoibWFzaXBkYXJpb0BnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImRhcmlvbWFzaXAiLCJpYXQiOjE2NTkyMDMzNjl9.OJIQfxDdPTXU4KTvS-eEveGZ6JZbz6VyXzaDHVAzMfk
+
+{
+    "title":"Grupo Max",
+    "description": "Grupo Max",
+    "type": "Privado"
+}

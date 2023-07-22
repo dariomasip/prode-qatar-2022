@@ -1,0 +1,4 @@
+GET http://localhost:3001/torneos/2FD134D00 HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzlmMDljNTlmYmJlZTMyMzZjODdjNSIsImVtYWlsIjoibWFzaXBkYXJpb0BnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImRhcmlvbWFzaXAiLCJpYXQiOjE2NTc5ODk3OTR9.OEAAtLgP2tbWGl1lbvni2bxw8XCAI361gg93NC_7XbQ
+

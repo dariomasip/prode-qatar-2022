@@ -1,0 +1,61 @@
+.Contenedor {
+    width: 190px;
+    height: 339px;
+    padding: 0 10px;
+    margin: 40px 70px;
+    background: #EEEEE4 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    font-family: Segoe UI;
+}
+
+.title__group {
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #85162C;
+    font-size: 23px;
+    width: 100%;
+    text-align: center;
+}
+
+.hr {
+    border: 1px solid #D5CFB2;
+
+}
+
+.team__rows {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.team__row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.container__flag {
+    width: 50px;
+    margin: 0;
+
+
+}
+
+.flag {
+    width: 60px;
+    border-radius: 10px;
+    border: 2px solid #D5CFB2;
+    user-select: none;
+
+}
+
+.team__name {
+    text-align: left;
+    font: normal normal 900 31px/42px Segoe UI;
+    color: #85162C;
+}

@@ -1,0 +1,36 @@
+.container__notifications {
+    max-height: 410px;
+    
+    border-radius: 10px;
+    background-color: #eeeee4;
+    position: absolute;
+    top: 70px;
+    right: 175px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 10;
+
+    -webkit-box-shadow: 1px -1px 33px -8px rgba(0,0,0,0.24);
+    -moz-box-shadow: 1px -1px 33px -8px rgba(0,0,0,0.24);
+    box-shadow: 1px -1px 33px -8px rgba(0,0,0,0.24);
+
+}
+
+
+.container__notifications ul {
+    list-style: none;
+    padding: 10px;
+    overflow-y: auto !important;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container__notifications ul li {
+    /* border: 1px solid red; */
+    padding: 15px 15px;
+    border-radius: 10px;
+}

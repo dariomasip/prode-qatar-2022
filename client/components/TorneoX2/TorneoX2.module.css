@@ -1,0 +1,248 @@
+.container__torneox2 {
+    width: 888px;
+    height: 806px;
+
+    background: #e7e7de 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 53px;
+    padding: 0 120px;
+}
+
+.encabezado__torneox2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+}
+
+.title__torneox2 {
+    font: normal normal bold 55px/73px Segoe UI;
+    letter-spacing: 0px;
+    color: #85162C;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.description__torneox2 {
+    font: normal normal 600 28px/37px Segoe UI;
+    letter-spacing: 0px;
+    color: #464646;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.border__torneox2 {
+    width: 23px;
+    height: 0px;
+    border: 2px solid #D5CFB2;
+}
+
+.info__torneox2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.item__info__torneox2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title__item__torneox2 {
+    font: normal normal bold 16px/19px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.data__item__torneox2 {
+    font: normal normal bold 16px/19px Segoe UI;
+    letter-spacing: 0px;
+    color: #85162C;
+}
+
+.puntos__info {
+    width: 36px;
+    height: 36px;
+    transform: rotate(45deg);
+    background: #FF004C 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 23px/31px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.puntos__text {
+    text-align: left;
+    font: normal normal bold 13px/17px Segoe UI;
+    letter-spacing: 0px;
+    color: #823F4C;
+
+    margin-top: 10px;
+    text-transform: uppercase;
+
+}
+.table__participants {
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+}
+
+.container__table {
+    overflow-y: scroll !important;
+}
+
+
+ .table__participants tr td {
+    border-bottom: 2px solid #D5CFB2;
+    height: 70px;
+}
+
+.position__number {
+    font: normal normal 900 32px/44px Segoe UI;
+    letter-spacing: 0px;
+    color: #5E5E5E;
+}
+
+.participant {
+    font: normal normal bold 24px/32px Segoe UI;
+    letter-spacing: 0px;
+    color: #85162C;
+}
+
+
+.points div {
+    background: #FF004C 0% 0% no-repeat padding-box;
+    width: 34px;
+    height: 34px;
+    transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+    position: relative;
+}
+
+.points div span {
+    font: normal normal bold 18px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 20%;
+    top: 15%;
+}
+
+.button__join {
+    background: #FF004C 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+
+
+    font: normal normal bold 20px/20px Roboto;
+    padding: 8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+
+    margin: 10px;
+}
+
+.button__participating {
+    background: #c2c2ba 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+
+
+    font: normal normal bold 20px/20px Roboto;
+    padding: 8px;
+    text-transform: uppercase;
+    color: #666666;
+    border: none;
+    cursor: pointer;
+
+    margin: 10px;
+}
+
+.button__disabled {
+    background: #ff004c71 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+
+
+    font: normal normal bold 20px/20px Roboto;
+    padding: 8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+
+    margin: 10px;
+}
+
+.position {
+    display: flex;
+    align-items: center;
+}
+
+.position div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.position div span:nth-child(1) {
+    font-size: 30px;
+    margin-bottom: -15px;
+}
+
+.position .status_position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.position .differencePosition__asc {
+    align-self: flex-start;
+    margin-top: 8px;
+    font-weight: 700;
+}
+
+
+.position .differencePosition__desc {
+    align-self: flex-end;
+    margin-bottom: 10px;
+    font-weight: 700;
+} 
+
+.code__tournament {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.code__tournament span:last-of-type {
+    color: #FF004C;
+}
+
+@media (max-width:1024px) {
+    .container__torneox2 {
+        width: 100%;
+        border: none;
+        padding: 0;
+    }
+} 
+
+@media (max-width:768px) {
+    .container__torneox2 {
+        width: 100%;
+        border: none;
+        padding: 0;
+    }
+
+    .info__torneox2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    
+}
